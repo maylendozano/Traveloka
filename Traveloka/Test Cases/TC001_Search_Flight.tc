@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Search_Flight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6e30386-36f2-4519-8eb9-812cd6cdcdfd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.From</defaultValue>
+      <description></description>
+      <id>df424760-4195-4059-8a8e-df13ad2c913c</id>
+      <masked>false</masked>
+      <name>From</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.To</defaultValue>
+      <description></description>
+      <id>978d33bb-b240-45e5-8211-5ae320e5e405</id>
+      <masked>false</masked>
+      <name>To</name>
+   </variable>
+</TestCaseEntity>

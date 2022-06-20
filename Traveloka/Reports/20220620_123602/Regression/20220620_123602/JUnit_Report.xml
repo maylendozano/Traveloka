@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="48.983" tests="1" failures="0" errors="0">
+   <testsuite name="Regression" tests="1" failures="0" errors="0" time="48.983" skipped="0" timestamp="2022-06-20 12:36:12" hostname="SehatQ - LAPTOP-FVCLIE1D" id="Test Suites/Regression">
+      <properties>
+         <property name="deviceName" value="samsung SM-A525F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\SehatQ\\Katalon Studio\\Traveloka\\Reports\\20220620_123602\\Regression\\20220620_123602"/>
+         <property name="logFiles" value="C:\\Users\\SehatQ\\Katalon Studio\\Traveloka\\Reports\\20220620_123602\\Regression\\20220620_123602\\appium.log, C:\\Users\\SehatQ\\Katalon Studio\\Traveloka\\Reports\\20220620_123602\\Regression\\20220620_123602\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="SehatQ - LAPTOP-FVCLIE1D"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.1&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.1"/>
+         <property name="deviceModel" value="SM-A525F"/>
+         <property name="hostAddress" value="192.168.100.12"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8R702M5WD"/>
+         <property name="deviceName" value="samsung SM-A525F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/TC001_Search_Flight" time="48.72" classname="Test Cases/TC001_Search_Flight" status="PASSED">
+         <system-out><![CDATA[2022-06-20 12:36:12 - [TEST_CASE][PASSED] - Test Cases/TC001_Search_Flight: Test Cases/TC001_Search_Flight
+
+2022-06-20 12:36:13 - [TEST_STEP][PASSED] - startExistingApplication(App, STOP_ON_FAILURE): Starting app with application ID: 'com.traveloka.android'
+
+2022-06-20 12:36:14 - [MESSAGE][INFO] - Appium server started on port 59,829
+
+2022-06-20 12:36:27 - [MESSAGE][PASSED] - Starting app with application ID: 'com.traveloka.android'
+
+2022-06-20 12:36:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/txtFlights"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/txtFlights' is present
+
+2022-06-20 12:36:29 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/txtFlights' is present
+
+2022-06-20 12:36:29 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/txtOneWayTrip"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/txtOneWayTrip'
+
+2022-06-20 12:36:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/txtOneWayTrip'
+
+2022-06-20 12:36:30 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnFrom"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnFrom'
+
+2022-06-20 12:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnFrom'
+
+2022-06-20 12:36:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/boxSearchCity"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/boxSearchCity' is present
+
+2022-06-20 12:36:33 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/boxSearchCity' is present
+
+2022-06-20 12:36:33 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/boxSearchCity"), 0): Tapped on element 'Object Repository/Search Flight/boxSearchCity'
+
+2022-06-20 12:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/boxSearchCity'
+
+2022-06-20 12:36:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search Flight/boxSearchCity"), From, STOP_ON_FAILURE): Send keys 'Palembang' on test object 'Object Repository/Search Flight/boxSearchCity' successfully.
+
+2022-06-20 12:36:35 - [MESSAGE][PASSED] - Send keys 'Palembang' on test object 'Object Repository/Search Flight/boxSearchCity' successfully.
+
+2022-06-20 12:36:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/listCities"), 0): Element 'Object Repository/Search Flight/listCities' is present
+
+2022-06-20 12:36:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:36 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/listCities' is present
+
+2022-06-20 12:36:36 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/listCities"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/listCities'
+
+2022-06-20 12:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/listCities'
+
+2022-06-20 12:36:37 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnTo"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnTo'
+
+2022-06-20 12:36:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnTo'
+
+2022-06-20 12:36:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/boxSearchCity"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/boxSearchCity' is present
+
+2022-06-20 12:36:39 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/boxSearchCity' is present
+
+2022-06-20 12:36:39 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/boxSearchCity"), 0): Tapped on element 'Object Repository/Search Flight/boxSearchCity'
+
+2022-06-20 12:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/boxSearchCity'
+
+2022-06-20 12:36:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search Flight/boxSearchCity"), To, STOP_ON_FAILURE): Send keys 'Lampung' on test object 'Object Repository/Search Flight/boxSearchCity' successfully.
+
+2022-06-20 12:36:42 - [MESSAGE][PASSED] - Send keys 'Lampung' on test object 'Object Repository/Search Flight/boxSearchCity' successfully.
+
+2022-06-20 12:36:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/listCities"), 15): Element 'Object Repository/Search Flight/listCities' is present
+
+2022-06-20 12:36:43 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/listCities' is present
+
+2022-06-20 12:36:43 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/listCities"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/listCities'
+
+2022-06-20 12:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/listCities'
+
+2022-06-20 12:36:43 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnDeparatureDate"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnDeparatureDate'
+
+2022-06-20 12:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnDeparatureDate'
+
+2022-06-20 12:36:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/listDay"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/listDay' is present
+
+2022-06-20 12:36:48 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/listDay' is present
+
+2022-06-20 12:36:48 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/listDay"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/listDay'
+
+2022-06-20 12:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/listDay'
+
+2022-06-20 12:36:49 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnPassengers"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnPassengers'
+
+2022-06-20 12:36:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnPassengers'
+
+2022-06-20 12:36:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/btnSelect"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/btnSelect' is present
+
+2022-06-20 12:36:51 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/btnSelect' is present
+
+2022-06-20 12:36:51 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnSelect"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnSelect'
+
+2022-06-20 12:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnSelect'
+
+2022-06-20 12:36:53 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnSeatClass"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnSeatClass'
+
+2022-06-20 12:36:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnSeatClass'
+
+2022-06-20 12:36:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/btnDone"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/btnDone' is present
+
+2022-06-20 12:36:54 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/btnDone' is present
+
+2022-06-20 12:36:54 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/txtBusiness"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/txtBusiness'
+
+2022-06-20 12:36:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/txtBusiness'
+
+2022-06-20 12:36:55 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnDone"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnDone'
+
+2022-06-20 12:36:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnDone'
+
+2022-06-20 12:36:56 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnCheckBox"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnCheckBox'
+
+2022-06-20 12:36:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnCheckBox'
+
+2022-06-20 12:36:57 - [TEST_STEP][PASSED] - tap(findTestObject("Search Flight/btnSearch"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Search Flight/btnSearch'
+
+2022-06-20 12:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-20 12:36:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search Flight/btnSearch'
+
+2022-06-20 12:36:58 - [TEST_STEP][PASSED] - Thread.sleep(5): null
+
+2022-06-20 12:36:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/validationCity"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/validationCity' is present
+
+2022-06-20 12:37:00 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/validationCity' is present
+
+2022-06-20 12:37:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Search Flight/validationDate"), 15, STOP_ON_FAILURE): Element 'Object Repository/Search Flight/validationDate' is present
+
+2022-06-20 12:37:01 - [MESSAGE][PASSED] - Element 'Object Repository/Search Flight/validationDate' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-20 12:36:12 - [TEST_SUITE][PASSED] - Regression: Test Cases/TC001_Search_Flight]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
